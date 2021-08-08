@@ -1,0 +1,95 @@
+.left {
+    width:max-content;
+    position: relative;
+    left: 0px;
+}
+
+.left > li {
+    font-size: 40px;
+    list-style-type: none;
+    padding: 15px;
+    /* border: 1px solid lightgray; */
+    border-radius: 15px;
+    margin-bottom: 60px;
+    z-index: -1;
+    text-align: right;
+    /* transform:translateX(-250px, 0px); */
+}
+
+.left > li:hover {
+    animation: animation .8s ease;
+    /* transform: translateX(100px);
+    /* -webkit-animation: alternate 1s ease; */
+}
+@keyframes animation {
+    from{transform:scale(1)}
+    70%{transform:scale(1.05)}
+    to{transform:scale(1)}
+}
+/* @-webkit-keyframes alternate {
+    from{transform:translateX(0px);}
+    to{transform:translateX(100px);}
+} */
+
+.left > li > a {
+    color: rgb(146, 146, 146);;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.left > li > a:hover {
+    color:rgb(195, 195, 195);
+}
+
+.left > li > i {
+    color: rgb(197, 197, 197);
+}
+
+.fa-apple, .fa-twitch, .fa-twitter {
+    padding-right: 0px;
+    font-size: 45px;
+}
+
+/*******************************************************************************************
+*******************************************************************************************/
+.right {
+    width:max-content;
+    position: relative;
+    left: 0px;
+}
+
+.right > li {
+    font-size: 40px;
+    list-style-type: none;
+    padding: 15px;
+    /* border: 1px solid lightgray; */
+    border-radius: 30px;
+    margin-bottom: 60px;
+    z-index: -1;
+    /* transform:translateX(-250px, 0px); */
+}
+
+.right > li > a {
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.right > li > a:hover {
+    color:rgb(195, 195, 195);
+}
+
+.right > li > i {
+    color: rgb(197, 197, 197);
+}
+
+.right > li:hover {
+    animation: animation .8s ease;
+    /* transform: translateX(100px);
+    /* -webkit-animation: alternate 1s ease; */
+}
+@keyframes animation {
+    from{transform:scale(1)}
+    70%{transform:scale(1.05)}
+    to{transform:scale(1)}
+}
